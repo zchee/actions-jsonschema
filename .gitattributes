@@ -1,0 +1,9 @@
+# actions-jsonschema project gitattributes file
+#  https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
+
+* text=auto eol=lf
+
+*.go -text diff=golang
+
+go.sum       linguist-vendored
+go.work.sum  linguist-vendored
